@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: serif;
+}
+#menu{
+    margin-left: 500px;
+}
+#menu ul{
+    width: 250px;
+    list-style-type: none;
+    background: greenyellow;
+}
+#menu li{
+    position: relative;
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    border: 1px solid green;
+    padding: 0 10px;
+}
+#menu .sub-menu{
+    position: absolute;
+    left: 250px;
+    top: 0;
+    display: none;
+}
+#menu li:hover{
+    background: green;
+}
+#menu li:hover .sub-menu{
+    display: block;
+}
